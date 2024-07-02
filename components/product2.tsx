@@ -37,7 +37,7 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
-      <div className="p-5 flex items-center justify-center flex-col opacity-60 absolute transform transition-transform duration-200 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_5%,#000_80%)]">
+      <div className="p-5 flex items-center justify-center flex-col opacity-60 absolute transform transition-transform duration-200 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_20%,#000_80%)]">
         <h1 className="font-semibold text-xl mr-auto">Create A Field</h1>
         <p className="text-sm text-muted-foreground">
           Drag A field type to one of the sections on the to create a custom
@@ -62,13 +62,14 @@ const features = [
   },
   {
     Icon: InputIcon,
-    name: "Full text search",
-    description: "Search through all your files in one place.",
+    name: "Unparalleled team collaboration",
+    description:
+      "Collaborate right within issues, assign tasks, attach documents, add comments and track progress. ",
     href: "/",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <div className="p-5 w-full opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_54%,#000_80%)] ">
+      <div className="p-5 w-full opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_64%,#000_80%)] ">
         <Colabration />
       </div>
     ),
@@ -96,7 +97,7 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
-      <div className="flex items-center justify-center w-full flex-col p-5 opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_5%,#000_80%)]">
+      <div className="flex items-center justify-center w-full flex-col p-5 opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_25%,#000_80%)]">
         <h1 className="font-bold text-xl mr-auto">Incidents</h1>
         <PieChartComponent />
       </div>
@@ -111,7 +112,7 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
-      <div className="flex items-center justify-center w-full flex-col p-5 opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_5%,#000_80%)]">
+      <div className="flex items-center justify-center w-full flex-col p-5 opacity-60 absolute transform transition-transform duration-300 hover:scale-105  [mask-image:linear-gradient(to_top,transparent_70%,#000_80%)]">
         <AnimatedListDemo />
       </div>
     ),
@@ -125,7 +126,7 @@ const features = [
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <div className=" p-5 flex items-center justify-center w-full opacity-60 absolute transform transition-transform duration-300 hover:scale-105 [mask-image:linear-gradient(to_top,transparent_5%,#000_80%)]">
+      <div className=" p-5 flex items-center justify-center w-full opacity-60 absolute transform transition-transform duration-300 hover:scale-105 [mask-image:linear-gradient(to_top,transparent_20%,#000_80%)]">
         <AiIntegration />
       </div>
     ),
